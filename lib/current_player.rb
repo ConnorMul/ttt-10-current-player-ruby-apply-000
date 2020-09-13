@@ -3,6 +3,7 @@ def turn_count(board)
   board.each do |turn|
     if number_of_turns <= 9
     numer_of_turns += 1
+   end
   end
-  return number_of_turns
+ return number_of_turns
 end
