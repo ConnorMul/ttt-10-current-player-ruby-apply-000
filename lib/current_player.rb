@@ -1,6 +1,6 @@
 def turn_count(board)
   number_of_turns = 0
-  board.each do |move|
+  board.each do |turn|
     if number_of_turns <= 9
     numer_of_turns += 1
   end
