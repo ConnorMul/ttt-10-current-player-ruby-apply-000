@@ -7,3 +7,12 @@ def turn_count(board)
   end
  return number_of_turns
 end
+
+def current_player(board)
+  if turn_count(board) % 2 == 0 
+    puts "It is X's turn"
+  else 
+    puts "It is O's turn"
+  end
+  return board
+end 
