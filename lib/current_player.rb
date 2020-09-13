@@ -14,5 +14,4 @@ def current_player(board)
   else 
     puts "It is O's turn"
   end
-  return board
 end 
